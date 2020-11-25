@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".AddBookDetails">
+
+        <EditText
+            android:id="@+id/ubookname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:inputType="textPersonName"
+            android:hint="Book Name" />
+
+        <EditText
+            android:id="@+id/udate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:hint="Date" />
+        <EditText
+            android:id="@+id/uvalidays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:hint="Validity" />
+
+        <EditText
+            android:id="@+id/ustuname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:hint="Student name" />
+        <EditText
+            android:id="@+id/udepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:hint="Department" />
+
+        <EditText
+            android:id="@+id/uescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_margin="10dp"
+            android:inputType="textMultiLine"
+            android:hint="Description" />
+
+        <Button
+            android:id="@+id/uupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:backgroundTint="#2454ef"
+            android:text="Update Data" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
